@@ -11,3 +11,7 @@ spring:
 logging:
   level:
     root: INFO
+springdoc:
+  swagger-ui:
+    operations-sorter: alpha
+    tags-sorter: alpha
