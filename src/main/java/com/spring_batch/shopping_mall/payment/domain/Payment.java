@@ -1,9 +1,9 @@
-package com.spring_batch.shopping_mall.payment;
+package com.spring_batch.shopping_mall.payment.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.spring_batch.shopping_mall.global.error.CustomException;
 import com.spring_batch.shopping_mall.global.error.ErrorCode;
-import com.spring_batch.shopping_mall.order.Order;
+import com.spring_batch.shopping_mall.order.domain.Order;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

@@ -3,9 +3,11 @@ package com.spring_batch.shopping_mall.order;
 import static org.junit.jupiter.api.Assertions.*;
 
 import com.spring_batch.shopping_mall.global.error.CustomException;
-import com.spring_batch.shopping_mall.orderItem.OrderItem;
-import com.spring_batch.shopping_mall.payment.PaymentMethod;
-import com.spring_batch.shopping_mall.payment.PaymentStatus;
+import com.spring_batch.shopping_mall.order.domain.Order;
+import com.spring_batch.shopping_mall.order.domain.OrderStatus;
+import com.spring_batch.shopping_mall.orderItem.domain.OrderItem;
+import com.spring_batch.shopping_mall.payment.domain.PaymentMethod;
+import com.spring_batch.shopping_mall.payment.domain.PaymentStatus;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

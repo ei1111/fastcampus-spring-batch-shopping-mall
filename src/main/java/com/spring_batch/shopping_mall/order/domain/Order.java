@@ -1,11 +1,11 @@
-package com.spring_batch.shopping_mall.order;
+package com.spring_batch.shopping_mall.order.domain;
 
 import com.spring_batch.shopping_mall.global.error.CustomException;
 import com.spring_batch.shopping_mall.global.error.ErrorCode;
-import com.spring_batch.shopping_mall.orderItem.OrderItem;
-import com.spring_batch.shopping_mall.payment.Payment;
-import com.spring_batch.shopping_mall.payment.PaymentMethod;
-import com.spring_batch.shopping_mall.payment.PaymentStatus;
+import com.spring_batch.shopping_mall.orderItem.domain.OrderItem;
+import com.spring_batch.shopping_mall.payment.domain.Payment;
+import com.spring_batch.shopping_mall.payment.domain.PaymentMethod;
+import com.spring_batch.shopping_mall.payment.domain.PaymentStatus;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

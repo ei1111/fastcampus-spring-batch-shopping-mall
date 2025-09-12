@@ -3,7 +3,10 @@ package com.spring_batch.shopping_mall.payment;
 import static org.junit.jupiter.api.Assertions.*;
 
 import com.spring_batch.shopping_mall.global.error.CustomException;
-import com.spring_batch.shopping_mall.order.Order;
+import com.spring_batch.shopping_mall.order.domain.Order;
+import com.spring_batch.shopping_mall.payment.domain.Payment;
+import com.spring_batch.shopping_mall.payment.domain.PaymentMethod;
+import com.spring_batch.shopping_mall.payment.domain.PaymentStatus;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

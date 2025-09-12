@@ -1,4 +1,4 @@
-package com.spring_batch.shopping_mall.payment;
+package com.spring_batch.shopping_mall.payment.domain;
 
 import lombok.RequiredArgsConstructor;
 

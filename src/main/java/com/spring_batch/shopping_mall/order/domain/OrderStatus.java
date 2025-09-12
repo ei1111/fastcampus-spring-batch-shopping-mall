@@ -1,4 +1,4 @@
-package com.spring_batch.shopping_mall.order;
+package com.spring_batch.shopping_mall.order.domain;
 
 import lombok.RequiredArgsConstructor;
 

@@ -1,6 +1,6 @@
-package com.spring_batch.shopping_mall.orderItem;
+package com.spring_batch.shopping_mall.orderItem.domain;
 
-import com.spring_batch.shopping_mall.order.Order;
+import com.spring_batch.shopping_mall.order.domain.Order;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
