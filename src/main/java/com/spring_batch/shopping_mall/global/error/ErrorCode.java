@@ -25,6 +25,10 @@ public enum ErrorCode {
     INVALID_INCREASE_STOCK("V003", "재고를 더 증가 시킬 수 없습니다."),
     INVALID_DECREASE_STOCK("V003", "재고를 더 감소 시킬 수 없습니다."),
     NOT_FOUND_PRODUCT("V005", "제품을 찾을 수 없습니다."),
+    ILLEGAL_PAYMENT("V006", "결제시도중에만 실패할 수 있습니다."),
+    ILLEGAL_CANCEL("V007", "이미 취소가 완료되었습니다."),
+    ILLEGAL_REFUND("V008", "이미 환불이 완료되었습니다."),
+    ILLEGAL_ORDER("V009", "결제를 처리할 수 없는 상태의 주문입니다."),
 
     // 서버 에러 (5000번대)
     INTERNAL_SERVER_ERROR("S001", "서버 내부 오류가 발생했습니다.");
