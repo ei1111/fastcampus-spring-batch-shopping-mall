@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/postgres?profileSQL=true
+    username: postgres
+    password: 1234
+    hikari:
+      maximum-pool-size: 200
+  jpa:
+    hibernate:
+      ddl-auto: none
+logging:
+  level:
+    root: INFO

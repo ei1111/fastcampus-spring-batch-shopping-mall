@@ -1,0 +1,51 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.5.5'
+	id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'com.spring-batch'
+version = '0.0.1-SNAPSHOT'
+description = 'Spring Batch mall'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    /*jpa*/
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    /*web*/
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    /*lombok*/
+	compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    /*postgresql*/
+    runtimeOnly 'org.postgresql:postgresql'
+
+    /*API 문서 생성(Swagger)*/
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.5'
+
+    /*test*/
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
