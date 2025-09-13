@@ -11,7 +11,7 @@
     <file>logs/transaction.log</file>
     <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
       <fileNamePattern>logs/transaction.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
-      <maxFileSize>100MB</maxFileSize>
+      <!--<maxFileSize>100MB</maxFileSize>-->
       <maxHistory>30</maxHistory>
       <totalSizeCap>10GB</totalSizeCap>
     </rollingPolicy>
