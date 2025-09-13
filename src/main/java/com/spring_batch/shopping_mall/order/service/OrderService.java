@@ -8,6 +8,7 @@ import com.spring_batch.shopping_mall.orderItem.dto.OrderItemCommand;
 import com.spring_batch.shopping_mall.payment.domain.PaymentMethod;
 import com.spring_batch.shopping_mall.product.dto.ProductResult;
 import com.spring_batch.shopping_mall.product.service.ProductService;
+import com.spring_batch.shopping_mall.transaction.service.TransactionService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
